@@ -8,13 +8,13 @@ namespace GitHubTesting
 {
     interface DesignPatter
     {
-        void checkValue();
+        bool checkValue();
     }
 
 
     class Program : DesignPatter
     {
-        public void checkValue() {  }
+        public bool checkValue() { return true; }
 
 
 

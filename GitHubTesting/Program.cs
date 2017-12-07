@@ -14,7 +14,7 @@ namespace GitHubTesting
 
     class Program : DesignPatter
     {
-        public bool checkValue() { return true; }
+        public bool checkValue() { return false; }
 
 
 
